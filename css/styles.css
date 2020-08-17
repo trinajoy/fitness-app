@@ -1,11 +1,20 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  text-align:center;
+  text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 900;
+}
+
+h1 {
+  color: #fff;
 }
 
 p {
@@ -15,27 +24,45 @@ p {
 /* containers */
 
 .container-fluid {
-  padding: 7% 15%;
-  position:relative;
-  z-index:0;
+  padding: 6% 15%;
+  position: relative;
+  z-index: 0;
+}
+
+#footer .container-fluid {
+  padding: 3% 15%;
+  position: relative;
+  z-index: 0;
 }
 
 /* Sections */
 
-.colored-section {
-  background-color: #ff4c68;
+.main-section {
+  height: 600px;
+  background-image: url('/images/gym.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.white-section {
-    background-color: #fff;
+.intro {
+  margin-top: 275px;
+}
+
+hr {
+  border: 1px solid #fff;
+  width: 88%;
 }
 
 /* Headings */
 
 .main-heading {
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 1.5;
+}
+
+#title p {
+  color: #fff;
 }
 
 .section-heading {
@@ -46,11 +73,20 @@ p {
 /* Navigation Bar */
 
 .navbar {
-  padding: 0 0 4.5rem;
+  padding: 7px 15px;
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 4;
 }
 
 .nav-item {
   padding: 0 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
 }
 
 .nav-link {
@@ -66,38 +102,10 @@ p {
 
 /* Title section */
 
-
-#title .container-fluid {
-  padding: 3% 15% 7%;
-  color: #fff;
-  text-align: left;
-}
-
-.main-image {
-  width: 70%;
-  transform: rotate(20deg);
-  padding: 20px 0px 25px 25px;;
-  position:absolute;
-}
-
-.download-button {
-  margin: 5% 3% 5% 0;
-}
-
-.transparent {
-  background-color: transparent;
-  border-color: #fff;
-  color: #fff;
-}
-
-.btn {
-  margin-right: 10px;
-}
-
 /* Features section */
 
 #features {
-  position:relative;
+  position: relative;
 }
 
 .feature-title {
@@ -111,63 +119,49 @@ p {
 #features .fas {
   font-size: 45px;
   margin-bottom: 1rem;
-  color: #e97171;
+  color: #8fc0a9;
 }
 
 #features .fas:hover {
-  color: #dd2c00;
+  color: #68b0ab;
 }
 
-/* Testimonials section */
+/* Carousel section */
 
-#testimonials {
-  color: #fff;
-  background-color: #ef8172;
-}
-.testimonial-text {
-  font-size: 3rem;
-  line-height: 1.5;
+#carousel {
 }
 
 .testimonial-image {
-  width: 10%;
-  border-radius: 100%;
+  width: 70%;
   margin: 20px;
 }
 
-.carousel-item{
+.carousel-item .testimonial-image {
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
 }
 
-/* Press section */
-#press {
-  background-color: #ef8172;
-  padding-bottom: 3%;
+/* cta  */
+
+#cta {
+  background-color: #8fc0a9;
 }
 
-.press-logo {
-  width: 15%;
-  margin: 20px 20px 15px;
-}
-
-/* Pricing section */
-#pricing {
-}
-
-.price-text {
-  font-size: 3rem;
-}
-
-.pricing-column {
-  padding: 3% 3%;
-}
-
-.download-button {
-  margin: 5% 3% 5% 0;
+#cta p {
+  color: #fff;
 }
 
 /* footer section */
+
 #footer {
+  color: white;
+  background-color: #000;
   font-size: 14px;
+}
+
+#footer p {
+  color: white;
 }
 
 #footer i {
@@ -175,13 +169,11 @@ p {
 }
 
 @media (max-width: 1028px) {
-
   #title {
     text-align: center;
   }
 
-  .main-image {
-    position:static;
-    transform:rotate(0);
+  #carousel {
+    display: none;
   }
 }

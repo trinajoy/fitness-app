@@ -1,4 +1,7 @@
+## Fitness App
 
-## TinDog
+A simple fitness and nutrition app using HTML, CSS & Bootstrap
 
-A single page website using HTML, CSS & Bootstrap.
+### Images
+
+unsplash
