@@ -39,7 +39,7 @@ p {
 
 .main-section {
   height: 600px;
-  background-image: url('/images/workout.jpg');
+  background-image: url('../images/workout.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -47,7 +47,6 @@ p {
 .intro {
   margin-top: 275px;
 }
-
 hr {
   border: 1px solid #fff;
   width: 88%;
@@ -157,6 +156,10 @@ hr {
   color: #fff;
 }
 
+.newsletter h3 {
+  color: white;
+}
+
 .newsletter-email input {
   margin: auto;
   padding: 9px 0;
@@ -166,6 +169,10 @@ hr {
   margin-bottom: 10px;
 }
 
+.newsletter-email input:focus {
+  outline: none;
+}
+
 .newsletter-button input {
   background-color: #68b0ab;
   font-size: 14px;
@@ -173,6 +180,10 @@ hr {
   border-radius: 10px;
   color: #fff;
   border: 1px solid grey;
+}
+
+.newsletter-button input:focus {
+  outline: none;
 }
 
 .newsletter-button input:hover {
