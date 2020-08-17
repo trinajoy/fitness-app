@@ -81,9 +81,9 @@ hr {
   z-index: 4;
 }
 
-.nav-item {
+/* .nav-item {
   padding: 0 10px;
-}
+} */
 
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
@@ -128,15 +128,20 @@ hr {
 
 /* Carousel section */
 
-#carousel {
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='grey' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
 
-.testimonial-image {
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='grey' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.fitness-image {
   width: 70%;
   margin: 20px;
 }
 
-.carousel-item .testimonial-image {
+.carousel-item .fitness-image {
   width: 50%;
   height: auto;
   border-radius: 50%;
@@ -162,17 +167,26 @@ hr {
 
 #footer p {
   color: white;
+  font-size: 14px;
 }
 
 #footer i {
-  padding: 5px 5px 15px;
+  padding: 5px 5px 0;
+  color: #fff;
+  font-size: 18px;
+}
+
+#footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+#footer li {
+  display: inline-block;
+  text-align: center;
 }
 
 @media (max-width: 1028px) {
-  #title {
-    text-align: center;
-  }
-
   #carousel {
     display: none;
   }
