@@ -39,7 +39,7 @@ p {
 
 .main-section {
   height: 600px;
-  background-image: url('/images/gym.jpg');
+  background-image: url('/images/workout.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
