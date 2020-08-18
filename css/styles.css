@@ -8,7 +8,8 @@ h3 {
   font-weight: 500;
 }
 
-h1 {
+h1,
+h5 {
   color: #fff;
 }
 
@@ -39,10 +40,6 @@ p {
   background-size: cover;
 }
 
-.intro {
-  margin-top: 275px;
-}
-
 hr {
   border: 1px solid #fff;
   width: 88%;
@@ -51,6 +48,7 @@ hr {
 /* Headings */
 
 .main-heading {
+  padding-top: 250px;
   font-size: 2rem;
   line-height: 1.2;
 }
@@ -67,8 +65,8 @@ hr {
 /* Navigation Bar */
 
 .navbar {
-  padding: 7px 15px;
-  background: rgba(0, 0, 0, 0.7);
+  padding: 7px 30px;
+  background: rgba(0, 0, 0, 0.85);
   position: fixed;
   top: 0;
   width: 100%;
@@ -179,6 +177,7 @@ hr {
 .newsletter-button input:hover {
   background-color: grey;
 }
+
 /* footer section */
 
 #footer {
@@ -211,5 +210,9 @@ hr {
 @media (max-width: 1028px) {
   #carousel {
     display: none;
+  }
+
+  .nav-item .nav-link {
+    text-align: left;
   }
 }
