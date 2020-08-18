@@ -8,8 +8,7 @@ h3 {
   font-weight: 500;
 }
 
-h1,
-h5 {
+h1 {
   color: #fff;
 }
 
@@ -20,7 +19,7 @@ p {
 /* containers */
 
 .container-fluid {
-  padding: 6% 15%;
+  padding: 6% 10%;
   position: relative;
   z-index: 0;
 }
@@ -45,6 +44,12 @@ hr {
   width: 88%;
 }
 
+#features hr {
+  border: 1px solid grey;
+  border-bottom: none;
+  width: 80%;
+}
+
 /* Headings */
 
 .main-heading {
@@ -60,6 +65,7 @@ hr {
 .section-heading {
   font-size: 3rem;
   line-height: 1.5;
+  font-weight: 500;
 }
 
 /* Navigation Bar */
@@ -99,7 +105,7 @@ hr {
 }
 
 .feature-box {
-  padding: 4.5%;
+  padding: 3%;
 }
 
 #features .fas {
@@ -112,6 +118,18 @@ hr {
   color: #68b0ab;
 }
 
+/* Pricing section */
+
+.card-body button:hover {
+  background-color: #8fc0a9;
+  color: #fff;
+}
+
+.card-body button {
+  width: 150px;
+  margin: auto;
+}
+
 /* Carousel section */
 
 .carousel-control-prev-icon {
@@ -122,13 +140,8 @@ hr {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='grey' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
-.fitness-image {
-  width: 70%;
-  margin: 20px;
-}
-
 .carousel-item .fitness-image {
-  width: 50%;
+  width: 55%;
   height: auto;
   border-radius: 50%;
 }
