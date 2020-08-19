@@ -161,12 +161,21 @@ hr {
   color: white;
 }
 
+.newsletter-email {
+  display: inline-block;
+}
+
+.newsletter-button {
+  display: inline-block;
+}
+
 .newsletter-email input {
   margin: auto;
   padding: 9px 0;
-  width: 65%;
+  width: 300px;
   text-align: center;
   font-size: 14px;
+  margin-right: 10px;
   margin-bottom: 10px;
 }
 
@@ -176,6 +185,7 @@ hr {
 
 .newsletter-button input {
   background-color: #68b0ab;
+
   font-size: 14px;
   padding: 8px 9px;
   border-radius: 10px;
