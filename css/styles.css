@@ -232,35 +232,31 @@ hr {
   display: inline-block;
 }
 
-.newsletter .form-control input,
-.newsletter .form-control button {
-  /* margin: 0 auto; */
+.newsletter .form-control input {
+  border: 1px solid #f0f0f0;
+  border-radius: 4px;
+  padding: 4.5% 30%;
+  font-size: 12px;
 }
 
-.newsletter .form-control input {
-  border: 2px solid #f0f0f0;
-  border-radius: 4px;
-  width: 350px;
-  padding: 10px;
-  font-size: 14px;
-  text-align: center;
+.newsletter .form-control input::placeholder {
+  overflow: visible;
 }
 
 .newsletter .fas {
-  font-size: 24px;
+  font-size: 20px;
   color: #8fc0a9;
 }
 
 .newsletter .fas:hover {
-  color: #68b0ab;
+  color: #fff;
 }
 
 .newsletter button {
-  margin-top: 40px;
-  margin: auto;
+  margin-top: 40px auto;
   display: inline-block;
   outline: 0;
-  background-color: #fff;
+  color: #fff;
   border-style: none;
 }
 
@@ -293,7 +289,7 @@ hr {
   text-align: center;
 }
 
-@media (max-width: 1028px) {
+@media (max-width: 1500px) {
   #carousel {
     display: none;
   }
@@ -303,18 +299,34 @@ hr {
   }
 }
 
-@media (max-width: 550px) {
-  .newsletter .form-control input,
-  .newsletter .form-control button {
-    display: block;
-    width: 100%;
-  }
+.newsletter {
+  padding: 20px 0;
+}
 
-  /* .newsletter .form-control input {
-    padding: 5px 0;
-  }
+.container {
+  padding: 3% 0%;
+}
 
-  .newsletter .form-control button {
-    padding: 5px 0;
-  } */
+.newsletter .form-inline {
+  display: block;
+  width: 100%;
+}
+
+.newsletter .form-control input,
+.newsletter .form-control button {
+  display: block;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.newsletter .form-control button {
+  background-color: #8fc0a9;
+}
+
+.newsletter .form-control button:hover {
+  background-color: #68b0ab;
+}
+
+.newsletter .fas {
+  color: #fff;
 }
