@@ -230,6 +230,15 @@ p {
   background-color: #68b0ab;
 }
 
+.contact-form small {
+  color: grey;
+  visibility: hidden;
+}
+
+.contact-form.sent small {
+  visibility: visible;
+}
+
 /* newsletter  */
 
 .newsletter {

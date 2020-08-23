@@ -206,7 +206,7 @@
   
     </section>
 
-    <!-- contact form and newsletter -->
+    <!-- Contact Form  -->
 
     <section class="contact" id="contact">
       <div class="container-fluid">
@@ -214,7 +214,7 @@
         <div class="row">
           <div class="col-md-6">
             <h3> Send an enquiry</h3>
-              <form class="contact-form" action="contactform.php" method="post">
+              <form class="contact-form" id="enquiry" action="contactform.php" method="post">
                 <div class="form-control">
                   <input type="text" name="name" placeholder="name" required />
                 </div>
@@ -236,13 +236,16 @@
                   <textarea name="message" placeholder="your message"></textarea>
                 </div>
       
-                <button type="submit" name="submit">SEND MAIL</button>
+                <button class="enquiry" type="submit" name="submit">SEND</button>
+                <small> Your enquiry has been sent</small>
               </form>
           </div>
 
+        <!--  Newsletter -->
+
           <div class="col-md-6">      
 
-            <div class="container">
+            <div class="container-fluid">
               <div class="newsletter">
 
                 <h3> Subscribe</h3>
@@ -296,6 +299,8 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+  <script src="script.js"></script>
 
 </body>
 
