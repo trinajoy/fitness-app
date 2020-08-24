@@ -227,15 +227,22 @@
                     required
                   />
                 </div>
-      
+
                 <div class="form-control">
-                  <input type="text" name="subject" placeholder="subject" required />
+                    <select id="subject" name="subject">
+                      <option value="subject"> subject </option>
+                      <option value="consultation"> free consultation</option>
+                      <option value="onutrition"> online nutrition plan </option>
+                      <option value="otraining"> online personal training plan </option>
+                      <option value="package"> nutrition + training package</option>
+                      <option value="other"> other</option>
+                    </select>
                 </div>
       
                 <div class="form-control">
-                  <textarea name="message" placeholder="your message"></textarea>
+                      <textarea name="message" rows="2" placeholder="your message"></textarea>
                 </div>
-      
+
                 <button class="enquiry" type="submit" name="submit">SEND</button>
                 <small> Your enquiry has been sent</small>
               </form>
@@ -245,7 +252,7 @@
 
           <div class="col-md-6">      
 
-            <div class="container-fluid">
+            <div class="container">
               <div class="newsletter">
 
                 <h3> Subscribe</h3>
