@@ -190,13 +190,15 @@ p {
   padding: 10px;
   margin: 10px 0 10px 0;
   font-size: 14px;
-  text-align: center;
-  text-align-last: center;
   color: #808080;
   display: block;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  text-align-last: center;
+  text-align: center;
+  -ms-text-align-last: center;
+  -moz-text-align-last: center;
 }
 
 .contact .form-control input:focus,
