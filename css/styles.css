@@ -182,6 +182,7 @@ p {
   text-align: center;
   color: #808080;
   display: block;
+  -webkit-appearance: none;
 }
 
 .contact .form-control input:focus,
