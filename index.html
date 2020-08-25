@@ -227,7 +227,37 @@
                   />
                 </div>
 
+              
                 <div class="form-control">
+                  <label
+                  class="label"
+                >
+                  <select
+                    id="subject" 
+                    name="subject"
+                    class="select"
+                    onchange="handleChange(this)"
+                  >
+                    <option selected="selected"> subject</option>
+                    <option value="free consulation"> free consultation</option>
+                    <option value="online nutrition"> online nutrition </option>
+                    <option value="online personal training"> online personal training </option>
+                    <option value="nutrition + training package"> nutrition + training package</option>
+                    <option value="other"> other</option>
+                  </select>
+                  <span class="span">
+                    free consultation
+                  </span>
+                </label>
+              </div>
+
+              <div class="form-control">
+                <textarea name="message" rows="2" placeholder="your message"></textarea>
+             </div>
+
+    
+
+                <!-- <div class="form-control">
                     <select id="subject" name="subject">
                       <option selected="selected"> subject</option>
                       <option value="consultation"> free consultation</option>
@@ -236,11 +266,9 @@
                       <option value="nutrition + training package"> nutrition + training package</option>
                       <option value="other"> other</option>
                     </select>
-                </div>
+                </div> -->
       
-                <div class="form-control">
-                      <textarea name="message" rows="2" placeholder="your message"></textarea>
-                </div>
+                
 
                 <button class="enquiry" type="submit" name="submit">SEND</button>
                 <small> Your enquiry has been sent</small>

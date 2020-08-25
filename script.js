@@ -22,3 +22,7 @@ form.addEventListener('submit', function (e) {
 
   console.log('submit clicked')
 })
+
+function handleChange(el) {
+  document.querySelector('.span').innerHTML = el.value
+}
