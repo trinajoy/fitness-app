@@ -171,7 +171,6 @@ p {
 }
 
 .contact .contact-form .form-control input,
-.contact .contact-form .form-control select,
 .contact .contact-form .form-control textarea {
   border: 2px solid #f0f0f0;
   border-radius: 4px;
@@ -185,6 +184,20 @@ p {
   -webkit-appearance: none;
 }
 
+.contact .contact-form .form-control select {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 10px 0;
+  font-size: 14px;
+  /* text-align: center; */
+  text-align-last: center;
+  color: #808080;
+  display: block;
+  -webkit-appearance: none;
+}
+
 .contact .form-control input:focus,
 .contact .form-control select:focus,
 .contact .form-control textarea:focus {
@@ -192,12 +205,9 @@ p {
   border-color: #777;
 }
 
-.contact .contact-form .form-control input {
-}
-
-.contact .contact-form .form-control select {
+/* .contact .contact-form .form-control select {
   text-align-last: center;
-}
+} */
 
 .contact .contact-form .form-control textarea {
   /* height: 100%; */
