@@ -181,7 +181,6 @@ p {
   text-align: center;
   color: #808080;
   display: block;
-  -webkit-appearance: none;
 }
 
 .contact .contact-form .form-control select {
@@ -191,10 +190,12 @@ p {
   padding: 10px;
   margin: 10px 0 10px 0;
   font-size: 14px;
-  /* text-align: center; */
   text-align-last: center;
   color: #808080;
   display: block;
+}
+
+.contact .contact-form .form-control select {
   -webkit-appearance: none;
 }
 
