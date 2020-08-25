@@ -198,9 +198,9 @@ p {
   display: block;
 }
 
-.contact .contact-form .form-control select {
+/* .contact .contact-form .form-control select {
   -webkit-appearance: none;
-}
+} */
 
 .contact .form-control input:focus,
 .contact .form-control select:focus,
