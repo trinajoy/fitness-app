@@ -1,0 +1,18 @@
+.blog-container {
+  padding: 5% 5%;
+  text-align: left;
+}
+
+.blog-container h1 {
+  color: #8fc0a9;
+}
+
+.blog-container .lead {
+  color: #8fc0a9;
+  font-weight: 400;
+}
+
+.blog-container img {
+  width: 400px;
+  height: auto;
+}

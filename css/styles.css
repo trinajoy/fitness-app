@@ -1,3 +1,7 @@
+.blog-section {
+  padding-top: 56px;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -67,32 +71,6 @@ p {
   font-weight: 500;
 }
 
-/* Navigation Bar */
-
-.navbar {
-  padding: 7px 30px;
-  background: rgba(0, 0, 0, 0.85);
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 4;
-}
-
-.navbar-dark .navbar-nav .nav-link {
-  color: #fff;
-}
-
-.nav-link {
-  font-size: 1.2rem;
-  font-weight: 200;
-}
-
-.navbar-brand {
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 2rem;
-  font-weight: bold;
-}
-
 /* Features section */
 
 #features {
@@ -155,7 +133,6 @@ p {
 /* Contact form   */
 
 .contact {
-  /* padding: 30px 40px; */
   padding: 3% 5%;
 }
 
@@ -204,9 +181,12 @@ p {
 } */
 
 .contact .form-control input:focus,
-.contact .form-control select option,
 .contact .form-control textarea:focus {
   outline: 0;
+  border-color: #777;
+}
+
+.contact .form-control select option {
   border-color: #777;
 }
 
@@ -225,13 +205,13 @@ p {
 .select {
   -webkit-appearance: none;
   border: 0;
+  background-color: white;
   width: 100%;
   height: var(--select-height);
 }
 
 .span {
   background: #fff;
-  border-bottom: 1px solid #ccc;
   line-height: var(--select-height);
   pointer-events: none;
   text-align: center;
@@ -240,10 +220,16 @@ p {
   right: 0;
   left: 0;
   bottom: 0;
+  color: #808080;
 }
 
 /* .select:focus + .span {
+  border-style: none;
   background-color: grey;
+} */
+
+/* .select:focus {
+  background-color: red;
 } */
 
 .contact .contact-form .form-control textarea {
