@@ -1,7 +1,6 @@
 const enquiry = document.querySelector('.enquiry')
 const form = document.querySelector('.contact-form')
 const email = document.getElementById('email')
-const navbar = document.getElementById('navbar-placeholder')
 
 // Check email is valid
 function checkEmail(input) {
