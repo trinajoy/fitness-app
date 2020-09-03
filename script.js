@@ -1,6 +1,7 @@
 const enquiry = document.querySelector('.enquiry')
 const form = document.querySelector('.contact-form')
 const email = document.getElementById('email')
+const navbar = document.getElementById('navbar-placeholder')
 
 // Check email is valid
 function checkEmail(input) {
@@ -22,7 +23,3 @@ form.addEventListener('submit', function (e) {
 
   console.log('submit clicked')
 })
-
-function handleChange(el) {
-  document.querySelector('.span').innerHTML = el.value
-}

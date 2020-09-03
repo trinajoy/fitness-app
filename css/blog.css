@@ -1,5 +1,5 @@
 .blog-container {
-  padding: 5% 5%;
+  padding: 8% 5%;
   text-align: left;
 }
 
@@ -15,4 +15,10 @@
 .blog-container img {
   width: 400px;
   height: auto;
+}
+
+@media (max-width: 1000px) {
+  .blog-container {
+    padding: 18% 5%;
+  }
 }
