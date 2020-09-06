@@ -1,7 +1,14 @@
 ## Fitness App
 
-A simple fitness and nutrition app using HTML, CSS & Bootstrap
+A simple fitness and nutrition site, using HTML, CSS & Bootstrap, Javascript & PHP.
 
-### Images
+## Specifications
+
+- Image Gallery
+- Contact form
+- Newsletter subscription
+- Blog Page
+
+## Images
 
 unsplash
